@@ -26,8 +26,8 @@ export function AboutSection() {
         <h2 className="mb-12 text-center text-3xl font-bold">About Me</h2>
         <div className="mx-auto max-w-3xl text-center text-muted-foreground">
           <p className="mb-8">
-            I'm a passionate software engineer with expertise in full-stack development.
-            I love building elegant solutions to complex problems and learning new technologies.
+            I'm a driven software engineer with expertise in full-stack development.
+            Recently, I have been particularly interested in financial markets, and gaining a deeper understanding of their workings.
           </p>
         </div>
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

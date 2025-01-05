@@ -6,6 +6,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 const navigation = [
   { name: "About", href: "#about" },
+  { name: "Employment", href: "#employment" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
 ]

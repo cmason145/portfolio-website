@@ -5,7 +5,7 @@ import { Github, Globe } from 'lucide-react'
 
 const projects = [
   {
-    title: "Project One",
+    title: "C++ Options Trading Platform",
     description: "A full-stack web application built with Next.js and TypeScript",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com",
@@ -30,7 +30,7 @@ const projects = [
 export function ProjectsSection() {
   return (
     <section id="projects" className="bg-muted/50 py-24">
-      <div className="container">
+      <div className="container px-4 py-8 md:px-8 md:py-12">
         <h2 className="mb-12 text-center text-3xl font-bold">Projects</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (

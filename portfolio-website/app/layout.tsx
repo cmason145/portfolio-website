@@ -10,8 +10,8 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
-  title: 'John Doe - Software Engineer',
-  description: 'Personal portfolio website of John Doe, a Software Engineer specializing in full-stack development.',
+  title: 'Christopher Mason - Software Engineer',
+  description: 'Personal portfolio website of Christopher Mason, a Software Engineer specializing in full-stack development.',
 }
 
 export default function RootLayout({

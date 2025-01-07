@@ -4,17 +4,17 @@ import { Code2, Server, Smartphone } from 'lucide-react'
 const skills = [
   {
     name: "Frontend Development",
-    description: "Building responsive and interactive user interfaces with React, Next.js, and TypeScript",
+    description: "Building responsive and interactive user interfaces with React, Next.js, and TypeScript, Blazor and React",
     icon: Code2,
   },
   {
     name: "Backend Development",
-    description: "Creating scalable server-side applications with Node.js and Python",
+    description: "Creating scalable server-side applications with Node.js, Python and C#.",
     icon: Server,
   },
   {
     name: "Mobile Development",
-    description: "Developing cross-platform mobile applications with React Native",
+    description: "Developing cross-platform mobile applications with React Native, Swift, and Kotlin.",
     icon: Smartphone,
   },
 ]

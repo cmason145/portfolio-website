@@ -114,19 +114,19 @@ export function ContactSection() {
               </form>
               <div className="mt-8 flex justify-center gap-4">
                 <Button size="icon" variant="ghost" asChild>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/cmason145" target="_blank" rel="noopener noreferrer">
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </a>
                 </Button>
                 <Button size="icon" variant="ghost" asChild>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/christopher-mason-y/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
                   </a>
                 </Button>
                 <Button size="icon" variant="ghost" asChild>
-                  <a href="mailto:your.email@example.com">
+                  <a href="mailto:chrismason609@gmail.com">
                     <Mail className="h-5 w-5" />
                     <span className="sr-only">Email</span>
                   </a>

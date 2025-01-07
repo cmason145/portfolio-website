@@ -3,40 +3,39 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
   {
-    title: "Senior Software Engineer",
-    company: "Tech Corp",
-    period: "2021 - Present",
+    title: "Software Engineer",
+    company: "WMG, Inc.",
+    period: "2024 - Present",
+    location: "Peekskill, NY",
+    description: [
+      "Developed and maintained full-stack web applications as a C# developer",
+      "Optimized database queries improving performance by 50%",
+    ],
+    technologies: ["C#", ".NET", "Azure", "Docker", "Postman", ]
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "Advanced Health Academy",
+    period: "2022 - 2024",
     location: "San Francisco, CA",
     description: [
-      "Led development of microservices architecture serving 1M+ users",
-      "Mentored junior developers and conducted code reviews",
-      "Implemented CI/CD pipelines reducing deployment time by 40%"
+      "Led development on IOS application, helping to drive first 100 users, and launch on the App Store",
+      "Refactored IaC code using AWS Cloudformation, combined with GraphQL.",
+      "Engineered a rules engine in Python using the  PyKE library, , translating JSON rule objects into Django Q objects for API endpoints."
     ],
-    technologies: ["React", "Node.js", "AWS", "Docker"]
+    technologies: ["Swift", "Python", "AWS", "GraphQL", "Git"]
   },
   {
-    title: "Software Engineer",
-    company: "StartUp Inc",
-    period: "2019 - 2021",
-    location: "New York, NY",
+    title: "Software Developer",
+    company: "Yektasonics",
+    period: "2022-2023",
+    location: "Cupertino, CA",
     description: [
-      "Developed and maintained full-stack web applications",
-      "Optimized database queries improving performance by 50%",
-      "Collaborated with design team to implement responsive UI/UX"
+      "Architected a cross-platform desktop application  to interface the company’s C++ modules with Pico and Arduino hardware.",
+      "Designed enterprise-level scripts using Ninja to leverage Link Time Optimization to reduce compilation time by 5 minutes.",
+      "Enhanced test infrastructure by writing over 150+ unit tests in Catch2 and 50+ integration tests in Trompeloeil."
     ],
-    technologies: ["TypeScript", "Next.js", "PostgreSQL", "Redis"]
-  },
-  {
-    title: "Junior Developer",
-    company: "Digital Solutions",
-    period: "2018 - 2019",
-    location: "Boston, MA",
-    description: [
-      "Built and maintained client websites",
-      "Implemented responsive designs and interactive features",
-      "Participated in daily stand-ups and sprint planning"
-    ],
-    technologies: ["JavaScript", "React", "CSS", "Git"]
+    technologies: ["C++", "Eletron.JS", "Node.JS", "Ninja", "CMake", "Catch2", "Pico/Arduino"]
   }
 ]
 

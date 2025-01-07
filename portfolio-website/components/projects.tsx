@@ -7,23 +7,14 @@ const projects = [
   {
     title: "C++ Options Trading Platform",
     description: "A full-stack web application built with Next.js and TypeScript",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    tags: ["C++", "QuantLib", "ZeroMQ"],
+    github: "https://github.com/cmason145/options-trading-project",
   },
   {
-    title: "Project Two",
-    description: "A mobile application built with React Native",
-    tags: ["React Native", "TypeScript", "Redux"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-  },
-  {
-    title: "Project Three",
-    description: "A backend API built with Node.js and Express",
-    tags: ["Node.js", "Express", "MongoDB"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    title: "C Neural Network Implementation",
+    description: "An implementation of a rudimentary neural network in C",
+    tags: ["C", "Make",],
+    github: "https://github.com/cmason145/Neural-Networks-in-C",
   },
 ]
 
@@ -54,12 +45,12 @@ export function ProjectsSection() {
                       GitHub
                     </a>
                   </Button>
-                  <Button size="sm" variant="outline" asChild>
+                  {/* <Button size="sm" variant="outline" asChild>
                     <a href={project.demo} target="_blank" rel="noopener noreferrer">
                       <Globe className="mr-2 h-4 w-4" />
                       Demo
                     </a>
-                  </Button>
+                  </Button> */}
                 </div>
               </CardContent>
             </Card>

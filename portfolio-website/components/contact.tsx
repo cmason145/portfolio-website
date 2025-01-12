@@ -34,15 +34,15 @@ export function ContactSection() {
       setIsSubmitting(true);
       
       await emailjs.send(
-        'service_g07de8d',
-        'template_y6i6775',
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_name: 'Your Name', // Replace with your name
+          to_name: 'Your Name',
         },
-        '5o-Bg6KlNu3Hei1V_'
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
       toast({

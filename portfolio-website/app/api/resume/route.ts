@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const GOOGLE_DRIVE_FILE_ID = '1mqcA6Vm7qdYALvMcsw7UO5rU5dFDzqK9';
+const GOOGLE_DRIVE_FILE_ID = process.env.GOOGLE_DRIVE_FILE_ID;
 const GOOGLE_DRIVE_VIEW_URL = `https://drive.google.com/uc?export=download&id=${GOOGLE_DRIVE_FILE_ID}`;
 
 export async function GET() {

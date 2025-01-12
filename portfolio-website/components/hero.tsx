@@ -47,7 +47,7 @@ export function HeroSection() {
           />
         </div>
         <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
-          Hello, I'm <span className="text-primary">Christopher Mason</span>
+          Hello, I&apos;m <span className="text-primary">Christopher Mason</span>
         </h1>
         <h2 className="mt-6 text-xl text-muted-foreground md:text-2xl">
           Software Engineer & Full-Stack Developer

@@ -38,7 +38,7 @@ export function HeroSection() {
       <div className="container flex flex-col items-center text-center">
         <div className="mb-8 overflow-hidden rounded-full border-2 border-primary">
           <Image
-            src="/public/pfp.jpg"
+            src="/mainphoto.jpg"
             alt="Profile picture"
             width={200}
             height={200}

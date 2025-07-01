@@ -9,7 +9,7 @@ const skills = [
   },
   {
     name: "Backend Development",
-    description: "Creating scalable server-side applications with Node.js, Python and C#.",
+    description: "Creating scalable server-side applications with Java, Node.js, Python, and Typescript.",
     icon: Server,
   },
   {

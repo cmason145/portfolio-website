@@ -8,10 +8,9 @@ const experiences = [
     period: "2024 - Present",
     location: "Peekskill, NY",
     description: [
-      "Developed and maintained full-stack web applications as a C# developer",
-      "Optimized database queries improving performance by 50%",
+      "Developed and maintained full-stack web applications as a Java developer.",
     ],
-    technologies: ["C#", ".NET", "Azure", "Docker", "Postman", ]
+    technologies: ["Java", "Python", "AWS", "SQL", "Postman", ]
   },
   {
     title: "Software Engineer Intern",
@@ -21,12 +20,12 @@ const experiences = [
     description: [
       "Led development on IOS application, helping to drive first 100 users, and launch on the App Store",
       "Refactored IaC code using AWS Cloudformation, combined with GraphQL.",
-      "Engineered a rules engine in Python using the  PyKE library, , translating JSON rule objects into Django Q objects for API endpoints."
+      "Engineered a rules engine in Python using the  PyKE library, translating JSON rule objects into Django Q objects for API endpoints."
     ],
     technologies: ["Swift", "Python", "AWS", "GraphQL", "Git"]
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company: "Yektasonics",
     period: "2022-2023",
     location: "Cupertino, CA",
